@@ -1,4 +1,3 @@
-// TODO: Include packages needed for this application
 import fs from 'fs';
 import inquirer from 'inquirer';
 import path from 'path';
@@ -9,7 +8,6 @@ import generateMarkdown from './utils/generateMarkdown.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// TODO: Create an array of questions for user input
 const questions = [ 
   {
     type: "input",
@@ -29,13 +27,18 @@ const questions = [
   },
   {
     type: "input",
+    name: "technologies",
+    message: "List the technologies and languages used in your project: "
+  },
+  {
+    type: "input",
     name: "require",
     message: "List any project dependencies: ",
   },
   {
     type: "input",
     name: "usage",
-    message: "What languages or technologies are utilized in this project? ",
+    message: "Describe how to use your project: ",
   },
   {
     type: "input",
@@ -57,15 +60,9 @@ const questions = [
     name: "contributors",
     message: "List any contributors. (Use Github Usernames): ",
     default: "--",
-  },
-  {
-    type: "input",
-    name: "test",
-    message: "Provide Walkthrough of required tests if applicable: ",
   }
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   const dir = path.dirname(fileName);
   if (!fs.existsSync(dir)) {
@@ -74,7 +71,6 @@ function writeToFile(fileName, data) {
   return fs.writeFileSync(fileName, data);
 }
 
-// TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((responses) => {
     console.log("Creating Professional README.md File...");

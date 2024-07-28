@@ -1,4 +1,3 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "none") {
@@ -7,7 +6,6 @@ function renderLicenseBadge(license) {
   return "";
 }
 
-// TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "none") {
@@ -16,7 +14,6 @@ function renderLicenseLink(license) {
   return "";
 }
 
-// TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "none") {
@@ -27,21 +24,21 @@ Licensed under the ${license} license.`;
   return "";
 }
 
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 by ${data.name}
 ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
+* [Technologies](#technologies)
 * [Requirements](#requirements)
 * [Usage](#usage)
 * [Contact-Me](#contact-me)
-* [Contributors](#contributors)
-* [Testing](#testing)
-${renderLicenseLink(data.license)}
+* [Contributors](#contributors)${renderLicenseLink(data.license)}
 ## Description
 ${data.description}
+## Technologies
+${data.technologies}
 ## Requirements
 ${data.require}
 ## Usage
@@ -52,10 +49,6 @@ ${data.usage}
 * Github - [${data.creator}](https://github.com/${data.creator})
 ## Contributors
 ${data.contributors}
-## Testing
-\`\`\`
-${data.test}
-\`\`\`
 ${renderLicenseSection(data.license)}`;
 }
 
