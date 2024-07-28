@@ -14,12 +14,12 @@ const questions = [
   {
     type: "input",
     name: "title",        
-    message: "Project Name",
+    message: "Project Name: ",
   },
   {
     type: "input",
     name: "description",
-    message: "Provide a short description explaining the what, why, and how of your project",
+    message: "Provide a short description explaining the what, why, and how of your project: ",
   },
   {
     type: "checkbox",
@@ -30,38 +30,38 @@ const questions = [
   {
     type: "input",
     name: "require",
-    message: "List any project dependencies here.",
+    message: "List any project dependencies: ",
   },
   {
     type: "input",
     name: "usage",
-    message: "What languages or technologies are utilized in this project?",
+    message: "What languages or technologies are utilized in this project? ",
   },
   {
     type: "input",
     name: "creator",
-    message: "Write your Github username.",
+    message: "Write your Github username: ",
   },
   {
     type: "input",
     name: "name",
-    message: "State your full name.",
+    message: "State your full name: ",
   },
   {
     type: "input",
     name: "email",
-    message: "Type in your e-mail address.",
+    message: "Type in your e-mail address: ",
   },
   {
     type: "input",
     name: "contributors",
-    message: "List any contributors. (Use Github Usernames).",
+    message: "List any contributors. (Use Github Usernames): ",
     default: "--",
   },
   {
     type: "input",
     name: "test",
-    message: "Provide Walkthrough of required tests if applicable",
+    message: "Provide Walkthrough of required tests if applicable: ",
   }
 ];
 
