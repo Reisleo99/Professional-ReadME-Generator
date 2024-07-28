@@ -3,10 +3,10 @@ by Leonardo Reis
 ![Github License](https://img.shields.io/badge/license-MIT-blue.svg)
 ## Table of Contents
 * [Description](#description)
-* [Requirements](#requirements)
+* [Technologies](#technologies)
+* [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Contact-Me](#contact-me)
-* [Contributors](#contributors)
 * [Walkthrough](#walkthrough-video)
 * [License](#license)
 
@@ -21,13 +21,10 @@ To generate the Professional ReadME file, first the user has to open the file in
 Answer all the prompts accordingly and finally the ReadME file will be generated with the user's input, inside the "dist" folder.
 ## Contact-me
 * Name - Leonardo Reis
-* Email - -
 * Github - [Reisleo99](https://github.com/Reisleo99)
-## Contributors
---
 ## Walkthrough Video
 ```
-
+https://app.screencastify.com/v3/watch/3LX9iQrEwHwvHkB6vMR9
 ```
 ## License
 
