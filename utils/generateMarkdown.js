@@ -31,7 +31,7 @@ ${renderLicenseBadge(data.license)}
 ## Table of Contents
 * [Description](#description)
 * [Technologies](#technologies)
-* [Requirements](#requirements)
+* [Dependencies](#dependencies)
 * [Usage](#usage)
 * [Contact-Me](#contact-me)
 * [Contributors](#contributors)${renderLicenseLink(data.license)}
@@ -39,8 +39,8 @@ ${renderLicenseBadge(data.license)}
 ${data.description}
 ## Technologies
 ${data.technologies}
-## Requirements
-${data.require}
+## Dependencies
+${data.dependencies}
 ## Usage
 ${data.usage}
 ## Contact-me

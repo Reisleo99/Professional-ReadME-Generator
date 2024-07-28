@@ -32,7 +32,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "require",
+    name: "dependencies",
     message: "List any project dependencies: ",
   },
   {
