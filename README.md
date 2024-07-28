@@ -7,12 +7,11 @@ by Leonardo Reis
 * [Usage](#usage)
 * [Contact-Me](#contact-me)
 * [Contributors](#contributors)
-* [Testing](#testing)
-
+* [Walkthrough](#walkthrough-video)
 * [License](#license)
 
 ## Description
-This application generates a ReadME file based on the user's answers to the inputs, using NodeJS and having Inquirer 8.2.6 as a dependency.
+This application generates a Professional ReadME file based on the user's inputs to the prompts.
 ## Technologies
 NodeJS, JavaScript
 ## Dependencies
